@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "art-booking-form-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/artBookingForm/ArtBookingFormWebPart.js",
+          "manifest": "./src/webparts/artBookingForm/ArtBookingFormWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ArtBookingFormWebPartStrings": "lib/webparts/artBookingForm/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}
